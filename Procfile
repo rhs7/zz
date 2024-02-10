@@ -1,1 +1,1 @@
-worker: bash StrPy.py
+worker: bash YaBh.py
