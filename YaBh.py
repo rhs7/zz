@@ -26,7 +26,7 @@ async def StrPychecker(event):
         type = str(msg[0])
       
         username = await rando(type)
-        await event.reply(f"تم البدأ على النوع  - {type}")
+        await event.reply(f"Done Start in This Type - {type}")
 
         while True:
                 clicks += 1
@@ -43,12 +43,13 @@ async def StrPychecker(event):
                         try:
                         	await StrPython(functions.account.UpdateUsernameRequest(username=username))           
                         
-                        	await StrPython.send_file(event.chat_id, "https://t.me/xx_YaBh",caption=f'''
-Good evening 🤸🏻
+                        	await StrPython.send_file(event.chat_id, "https://t.me/uAuuuuA/3",caption=f'''
+Fuc'k !!
 ⌯ User ⤷ @{username}
 ⌯ Save ⤷ Account
 ⌯ Clicks ⤷ {clicks}
-⌯ Program the bot ⤷ @xx_YaBh''')
+⌯ After ⤷ {clicks}
+⌯ aBooD ⤷ @kckkkkc''')
                         	os.remove("clicks.txt")
                         	break
                         except Exception as USFL:
@@ -57,7 +58,7 @@ Good evening 🤸🏻
                         continue                    
                         
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
-                    	await StrPython.send_message(event.chat_id,f"User is band 🥴 : {username}")
+                    	await StrPython.send_message(event.chat_id,f"User is band ! : {username}")
                     	band.append(username)StrPython.on(events.NewMessage(outgoing=True, pattern=r"ايقاف الحجز"))
 async def Shhtah(event):
 	await StrPython.send_message(event.chat_id,"جارِ ...")
