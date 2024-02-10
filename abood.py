@@ -4,13 +4,6 @@ try:
 	import threading
 	import pyfiglet
 	import time
-except:
-	
-	os.system('pip install requests')
-	os.system('pip install random')
-	os.system('pip install threading')
-	os.system('pip install pyfiglet')
-
 
 timee=time.asctime()
 O = '\033[0;37m'
