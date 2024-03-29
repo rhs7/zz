@@ -43,13 +43,13 @@ async def StrPychecker(event):
                         try:
                         	await StrPython(functions.account.UpdateUsernameRequest(username=username))           
                         
-                        	await StrPython.send_file(event.chat_id, "https://t.me/uAuuuuA/3",caption=f'''
+                        	await StrPython.send_file(event.chat_id, "https://t.me/KeePusa/5",caption=f'''
 Fuc'k !!
 ⌯ User ⤷ @{username}
 ⌯ Save ⤷ Account
 ⌯ Clicks ⤷ {clicks}
 ⌯ After ⤷ {clicks}
-⌯ aBooD ⤷ @kckkkkc''')
+⌯ aBooD ⤷ @usaByte 🇺🇸''')
                         	os.remove("clicks.txt")
                         	break
                         except Exception as USFL:
